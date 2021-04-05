@@ -26,7 +26,7 @@ const posts = [
     {
         userId: 3,
         id: 22,
-        title: "dolor sint quo a velit explicabo quia nam",
+        title: "voluptate et itaque vero tempora molestiae",
         body: "eos qui et ipsum ipsam suscipit aut sed omnis non odio expedita earum mollitia molestiae aut atque rem suscipit nam impedit esse"
     },
     {
