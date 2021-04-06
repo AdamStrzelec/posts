@@ -3,6 +3,7 @@ const getUsers = require('./src/api/getUsers');
 
 const getUsersPosts = require('./src/utils/getUsersPosts');
 const getDuplicatePosts = require('./src/utils/getDuplicatePosts');
+const getClosestUsers = require('./src/utils/getClosestUsers');
 
 const app = async () => {
     const users = await getUsers().then(response => response.data);
@@ -10,6 +11,7 @@ const app = async () => {
 
     console.log(getUsersPosts(users, posts));
     console.log(getDuplicatePosts(posts));
+    console.log(getClosestUsers(users));
 }
 
 app();
