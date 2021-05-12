@@ -17,6 +17,7 @@ const app = async () => {
     catch(error) {
         console.log(error)
     }
+    console.log('cos tam gdzies tam');
 }
 
 app();
